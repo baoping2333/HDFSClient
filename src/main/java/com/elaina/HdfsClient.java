@@ -36,10 +36,7 @@ public class HdfsClient {
     @Test
     public void testMkdirs() throws IOException, InterruptedException, URISyntaxException {
 
-        // 2 创建目录
         fs.mkdirs(new Path("/2021/linzhi"));
-
-        // 3 关闭资源
 
     }
 
