@@ -27,7 +27,7 @@ public class HdfsClient {
         // FileSystem fs = FileSystem.get(configuration);
 
         FileSystem fs = FileSystem.get(new URI("hdfs://hadoop102:9820"), configuration, "atguigu");
-
+//1213
         // 2 创建目录
         fs.mkdirs(new Path("/1108/daxian/banzhang"));
 
