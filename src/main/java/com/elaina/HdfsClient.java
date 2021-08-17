@@ -20,8 +20,6 @@ import java.net.URISyntaxException;
 public class HdfsClient {
     @Test
     public void testMkdirs() throws IOException, InterruptedException, URISyntaxException {
-
-
         // 1 获取文件系统
         Configuration configuration = new Configuration();
         // 配置在集群上运行
